@@ -2,7 +2,7 @@ module "dev_sandbox_001" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "dev-sandbox-001@yourdomain.com"  # Must be unique across ALL AWS accounts
+    AccountEmail              = "arindam.halder@clorox.com"  # Must be unique across ALL AWS accounts
     AccountName               = "dev-sandbox-001"
     ManagedOrganizationalUnit = "Sandbox"  # Arindam Must exist in your Control Tower from AWS
     SSOUserEmail              = "halder.anshupriya@gmail.com"  # Your admin email
